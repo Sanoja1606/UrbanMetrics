@@ -39,10 +39,13 @@ After training and fine-tuning the machine learning model on the House Rental Da
 ![After training and tuning the machine learning model on the Home Rental Dataset, the performance of the best model is evaluated using accuracy as the evaluation metric. The model accuracy on the test set is 98%, which shows how well the model predicts the rental price based on the given features.](image.png)
 
 #Model Accuracy Table:
-
-Model	Accuracy Score	RMSE
-XGBRegressor	0.984	2698
-LGBMRegressor	0.986	2547
+|---------------|-----------------------|----------|
+|    Model	    |      Accuracy Score	  |   RMSE   |
+|---------------|-----------------------|----------|
+| XGBRegressor  |           0.984       |   2698   |
+|---------------|-----------------------|----------|
+| LGBMRegressor |           0.986       |   2547   |
+|---------------|-----------------------|----------|
 
 #Model Evaluation
 The LGBMRegressor model achieved the highest performance with an accuracy score of 98% and an RMSE of 2547, indicating strong predictive power for house rental prices. The relatively high RMSE value suggests the model is generally accurate but may have occasional large errors.
